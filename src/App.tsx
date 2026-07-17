@@ -13,6 +13,7 @@ import { AddOns } from './components/AddOns'
 import { CTASection } from './components/CTASection'
 import { Footer } from './components/Footer'
 import { LoaderOne } from './components/loader-one'
+import { ChatBot } from './components/ChatBot'
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -186,6 +187,7 @@ function App() {
       </section>
 
       <Footer />
+      <ChatBot />
       </BrowserRouter>
     </>
   )
